@@ -13,7 +13,35 @@
         
         <h1>JavaScript Calculator</h1>
         
-        
+        <div id="calculaor">
+            <form>
+                <input type="text" id="result" disabled>
+                <br>
+                <input type="button" value="C" class="key" onclick="toDisplay('C')">
+                <input type="button" value="CE" class="key" onclick="backspace('CE')">
+                <input type="button" value="x^2" class="key" onclick="toDisplay('x^2')">
+                <input type="button" value="+" class="key" onclick="toDisplay('+')">
+                <br>
+                <input type="button" value="9" class="key" onclick="toDisplay('9')">
+                <input type="button" value="8" class="key" onclick="toDisplay('8')">
+                <input type="button" value="7" class="key" onclick="toDisplay('7')">
+                <input type="button" value="-" class="key" onclick="toDisplay('-')">
+                <br>
+                <input type="button" value="6" class="key" onclick="toDisplay('6')">
+                <input type="button" value="5" class="key" onclick="toDisplay('5')">
+                <input type="button" value="4" class="key" onclick="toDisplay('4')">
+                <input type="button" value="*" class="key" onclick="toDisplay('*')">
+                <br>
+                <input type="button" value="3" class="key" onclick="toDisplay('3')">
+                <input type="button" value="2" class="key" onclick="toDisplay('2')">
+                <input type="button" value="1" class="key" onclick="toDisplay('1')">
+                <input type="button" value="/" class="key" onclick="toDisplay('/')">
+                <br>
+                <input type="button" value="0" class="key" onclick="toDisplay('0')">
+                <input type="button" value="." class="key" onclick="toDisplay('.')">
+                <input type="button" value="=" class="key" onclick="answer()">
+            </form>
+        </div>
         
         <script src="js/script.js"></script>
     </body>
