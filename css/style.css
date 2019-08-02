@@ -7,3 +7,35 @@ h1 {
     font-size: 2em;
     text-shadow: 0px 2px 2px #cec3ce, -1px 0px #70a1ff, 0px -1px #70a1ff, 0px 1px #70a1ff, 1.5px 0px #70a1ff;
 }
+#calculator {
+    width: 250px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 40px 10px;
+    background-color: #778ca3;
+        /*#f7f7f7;*/
+    border: 1px solid #6f6767;
+    -webkit-box-shadow: 0 0 3px 6px #ccc;
+    box-shadow: 0 0 3px 6px #ccc;
+}
+#result {
+    width: 230px;
+    height: 25px;
+    margin-bottom: 20px;
+    font: 20px bold;
+    text-align: right;
+    -webkit-box-shadow: 0px 0px 1px 1px #6f6767;
+    box-shadow: 0px 0px 1px 1px #6f6767;
+}
+.key {
+    width: 50px;
+    height: 30px;
+    margin: 4px;
+    border-radius: 5%;
+    outline: 0;
+    -webkit-box-shadow: 0px 0px 1px 2px black;
+    box-shadow: 0px 0px 1px 1px black;
+}
+#equal {
+    width: 114px;
+}
