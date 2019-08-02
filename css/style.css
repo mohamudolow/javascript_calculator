@@ -3,3 +3,7 @@ body {
     color: #fff;
     text-align: center;
 }
+h1 {
+    font-size: 2em;
+    text-shadow: 0px 2px 2px #cec3ce, -1px 0px #70a1ff, 0px -1px #70a1ff, 0px 1px #70a1ff, 1.5px 0px #70a1ff;
+}
