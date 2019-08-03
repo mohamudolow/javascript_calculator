@@ -13,3 +13,8 @@ function backspace() {
     const len = val.length - 1;
     box.value = val.substring(0, len);
 }
+
+function power() {
+    const newNum = eval(box.value * box.value);
+    box.value = newNum;
+}
