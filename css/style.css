@@ -52,3 +52,10 @@ h1 {
     color: #fff;
     background-color: rgba(29, 29, 29, 0.51);
 }
+footer {
+    margin-top: 80px;
+    font-size: 14px;
+}
+a {
+    color: darkblue;
+}
