@@ -18,3 +18,7 @@ function power() {
     const newNum = eval(box.value * box.value);
     box.value = newNum;
 }
+
+function answer() {
+    box.value = eval(box.value);
+}
