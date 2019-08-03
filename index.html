@@ -15,8 +15,11 @@
         
         <div id="calculator">
             <form>
+                <div id="display">
                 <input type="text" id="result" disabled>
-                <br>
+                </div>
+                
+                <div id="keys">
                 <input type="button" value="C" class="key" onclick="toDisplay('C')">
                 <input type="button" value="CE" class="key" onclick="backspace('CE')">
                 <input type="button" value="x^2" class="key" onclick="toDisplay('x^2')">
@@ -40,8 +43,8 @@
                 <input type="button" value="0" class="key" onclick="toDisplay('0')">
                 <input type="button" value="." class="key" onclick="toDisplay('.')">
                 <input type="button" value="=" class="key" id="equal" onclick="answer()">
+                    </div>
             </form>
-            <h3>JS Calculator</h3>
         </div>
         
         <script src="js/script.js"></script>
